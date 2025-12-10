@@ -1,7 +1,6 @@
 # Smart Attendance Management System
 
-**Smart Attendance Management System** is a camera-based, face-recognition-driven attendance tracker built using **Python**, **OpenCV**, and **face_recognition**.  
-Developed as part of my **B.Tech Mini Project** under the **SmartInternz Externship Program – Machine Learning & Deep Learning (Powered by Google Developers)**.
+**Smart Attendance Management System** is a camera-based, face-recognition-driven attendance tracker built using **Python**, **OpenCV**, and **face_recognition**. Developed as part of my **B.Tech Mini Project** under the **SmartInternz Externship Program – Machine Learning & Deep Learning (Powered by Google Developers)**.
 
 This system automates attendance logging through real-time facial recognition, eliminating manual intervention while maintaining high accuracy and data integrity.
 
@@ -61,86 +60,83 @@ This project was completed as part of the **SmartInternz Externship Program** in
 Follow the steps below to install and run this project on your local machine.
 
 ### Step 1: Clone or Download the Repository
-```bash
 git clone https://github.com/PasupuletiThrilok/Smart-Attendance-Management-System.git
 cd Smart-Attendance-Management-System
 Alternatively, download the ZIP file and extract it.
 
-Step 2: Create and Activate a Virtual Environment
+### Step 2: Create and Activate a Virtual Environment
 python -m venv .venv
 .\.venv\Scripts\activate      # For Windows
-# OR
+#### or
 source .venv/bin/activate     # For Linux/Mac
 
-Step 3: Upgrade Pip and Install Dependencies
-python -m pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
-If face_recognition fails during installation:
+### Step 3: Upgrade Pip and Install Dependencies
+python -m pip install --upgrade pip setuptools wheel ||
+pip install -r requirements.txt 
+#### If face_recognition fails during installation:
+- Ensure CMake is installed system-wide and added to PATH.
+- Ensure Microsoft Visual Studio C++ Build Tools (Desktop Development with C++) are installed.
 
-Ensure CMake is installed system-wide and added to PATH.
-
-Ensure Microsoft Visual Studio C++ Build Tools (Desktop Development with C++) are installed.
-
-Step 4: Run the Application
+### Step 4: Run the Application
 python main.py
-Once the Flask server starts, open your browser and visit: http://127.0.0.1:8000
+- Once the Flask server starts, open your browser and visit: http://127.0.0.1:8000 or http://192.168.0.108:8000 (local host address)
 
-6. Future Enhancements
-Potential improvements for future contributors include:
+---
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/7fd07b52-8c6c-48cf-87b5-bcce03a0b80d" />
 
-Integration with SQL databases (MySQL/SQLite) for persistent storage
+---
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/c91c1d51-9f46-49ae-b367-35aa55f1ec9c" />
 
-Addition of dashboard analytics for attendance visualization
+---
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/a5edfff7-1794-4644-ba3b-524ba4f6533a" />
 
-Implementation of admin authentication and access management
+---
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/9712bf2a-1bb5-42a7-8b1c-fef1ea13df0d" />
 
-Support for multiple camera feeds
+---
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/114f14cb-0752-4c29-bb4a-dd72342bffb8" />
 
-Cloud deployment on AWS, Render, or Heroku
+---
+## 6. Future Enhancements
+- Potential improvements for future contributors include:
+- Integration with SQL databases (MySQL/SQLite) for persistent storage
+- Addition of dashboard analytics for attendance visualization
+- Implementation of admin authentication and access management
+- Support for multiple camera feeds
+- Cloud deployment on AWS, Render, or Heroku
+- Development of a mobile app interface using Flutter or React Native
 
-Development of a mobile app interface using Flutter or React Native
+## 7. Author
+Pasupuleti Thrilok ||
+**Email:** thrilokpvc@gmail.com (Can Contact for any queries)
 
-7. Author
-Pasupuleti Thrilok
-Machine Learning & Deep Learning Enthusiast
-Extern – SmartInternz x Google Developers (2023)
-Email: thrilokpvc@gmail.com
-
-8. License
+## 8. License
 MIT License
 
-Copyright (c) 2025 Pasupuleti Thrilok
+Copyright (c) 2023 Pasupuleti Thrilok
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
+of this project and associated files, to deal
+in the project without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
+copies of the project, and to permit persons to whom the project is
 furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+all copies or substantial portions of the project.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-9. Contribution Guidelines
+## 9. Contribution Guidelines
 Contributions, issue reports, and feature requests are welcome.
 
 To contribute:
 
-# Fork the repository
-# Create a new branch
+### Fork the repository
+#### Create a new branch
 git checkout -b feature-name
 
-# Make your changes
+#### Make your changes
 git commit -m "Added new feature: <description>"
 
-# Push your branch
+#### Push your branch
 git push origin feature-name
 Then, open a Pull Request describing your contribution.

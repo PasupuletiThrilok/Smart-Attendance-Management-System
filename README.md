@@ -88,18 +88,17 @@ Once the server starts, open your browser and navigate to:
 
 http://127.0.0.1:8000
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/d7d4805f-ce9e-4d47-902a-26538b47083d" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/129af2da-ce6c-4b2e-adfe-27366e8267d8" />
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/aec2b650-38ed-40e9-a011-9cee22e930b1" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/6e3d63bf-7600-473e-912a-18d274ea594e" />
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/a12a50c9-4aa4-4d5c-af5d-563fbc61fd34" />
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/888c0058-82bc-4cdf-b4ab-be4d31d5f4ab" />
 
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/5c1d97c5-c793-4119-b3c2-3ada3208e5d1" />
-
-
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/92208d0b-21de-4f1e-b8e5-195abf09279b" />
 
 Step 5: Project Structure
-<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/fc4d24a4-846e-492f-addd-05c6437c154b" />
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/c5a09927-f25a-44c6-b7b9-c8db472f2204" />
 
 
 6. Future Enhancements

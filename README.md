@@ -50,7 +50,7 @@ Certificate ID: Ext–2023–69195
 Issued Date: November 16, 2023
 Program Manager: Jayaprakash. C
 
-(Certificate file:https://drive.google.com/file/d/1ZWRW2sDFVjXbtk_q5Q7SF7bJqawvImNY/view?usp=sharing)
+(Certificate file: https://drive.google.com/file/d/1ZWRW2sDFVjXbtk_q5Q7SF7bJqawvImNY/view?usp=sharing)
 
 5. Installation and Setup Guide
 
@@ -88,16 +88,19 @@ Once the server starts, open your browser and navigate to:
 
 http://127.0.0.1:8000
 
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/d7d4805f-ce9e-4d47-902a-26538b47083d" />
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/aec2b650-38ed-40e9-a011-9cee22e930b1" />
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/a12a50c9-4aa4-4d5c-af5d-563fbc61fd34" />
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/5c1d97c5-c793-4119-b3c2-3ada3208e5d1" />
+
+
+
 Step 5: Project Structure
-Smart-Attendance-Management-System/
-│
-├── dataset/               # Folder containing user face images
-├── log.csv                # Attendance log (auto-created)
-├── main.py                # Main application script
-├── templates/             # HTML templates for Flask
-├── screenshots/           # Demonstration screenshots
-├── requirements.txt       # List of dependencies
-└── README.md              # Project documentation
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/fc4d24a4-846e-492f-addd-05c6437c154b" />
+
 
 6. Future Enhancements
 

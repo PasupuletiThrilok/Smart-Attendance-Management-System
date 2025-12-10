@@ -67,15 +67,12 @@ cd Smart-Attendance-Management-System
 Alternatively, download the ZIP file and extract it.
 
 Step 2: Create and Activate a Virtual Environment
-bash
-Copy code
 python -m venv .venv
 .\.venv\Scripts\activate      # For Windows
 # OR
 source .venv/bin/activate     # For Linux/Mac
+
 Step 3: Upgrade Pip and Install Dependencies
-bash
-Copy code
 python -m pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 If face_recognition fails during installation:
@@ -85,25 +82,10 @@ Ensure CMake is installed system-wide and added to PATH.
 Ensure Microsoft Visual Studio C++ Build Tools (Desktop Development with C++) are installed.
 
 Step 4: Run the Application
-bash
-Copy code
 python main.py
-Once the Flask server starts, open your browser and visit:
+Once the Flask server starts, open your browser and visit: http://127.0.0.1:8000
 
-cpp
-Copy code
-http://127.0.0.1:8000
-6. User Interface and Output
-Below are snapshots of the working interface and outputs:
-
-Interface	Screenshot
-Home Page	<img width="100%" alt="image" src="https://github.com/user-attachments/assets/129af2da-ce6c-4b2e-adfe-27366e8267d8" />
-Recognition Window	<img width="100%" alt="image" src="https://github.com/user-attachments/assets/6e3d63bf-7600-473e-912a-18d274ea594e" />
-Attendance Log Output	<img width="100%" alt="image" src="https://github.com/user-attachments/assets/888c0058-82bc-4cdf-b4ab-be4d31d5f4ab" />
-Flask Console Run	<img width="100%" alt="image" src="https://github.com/user-attachments/assets/92208d0b-21de-4f1e-b8e5-195abf09279b" />
-Project Folder Structure	<img width="100%" alt="image" src="https://github.com/user-attachments/assets/c5a09927-f25a-44c6-b7b9-c8db472f2204" />
-
-7. Future Enhancements
+6. Future Enhancements
 Potential improvements for future contributors include:
 
 Integration with SQL databases (MySQL/SQLite) for persistent storage
@@ -118,19 +100,13 @@ Cloud deployment on AWS, Render, or Heroku
 
 Development of a mobile app interface using Flutter or React Native
 
-8. Author
+7. Author
 Pasupuleti Thrilok
 Machine Learning & Deep Learning Enthusiast
 Extern – SmartInternz x Google Developers (2023)
-
 Email: thrilokpvc@gmail.com
 
-GitHub: https://github.com/PasupuletiThrilok
-
-9. License
-MIT License
-vbnet
-Copy code
+8. License
 MIT License
 
 Copyright (c) 2025 Pasupuleti Thrilok
@@ -152,13 +128,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-10. Contribution Guidelines
+
+9. Contribution Guidelines
 Contributions, issue reports, and feature requests are welcome.
 
 To contribute:
 
-bash
-Copy code
 # Fork the repository
 # Create a new branch
 git checkout -b feature-name
